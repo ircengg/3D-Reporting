@@ -1,0 +1,42 @@
+.groupingClassname {
+    display: flex;
+    flex-direction: column;
+    block-size: 100%;
+    gap: 8px;
+
+    .rdg {
+        flex: 1;
+    }
+}
+
+
+
+.optionsClassname {
+    display: flex;
+    gap: 8px;
+    text-transform: capitalize;
+}
+
+.toolbarClassname {
+    text-align: end;
+    margin-block-end: 8px;
+}
+
+.dialogContainerClassname {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    place-items: center;
+    background: rgba(0, 0, 0, 0.1);
+    .dialog {
+        width: 300px;
+
+        .input {
+            width: 100%;
+        }
+
+        .menu {
+            text-align: end;
+        }
+    }
+}
